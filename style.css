@@ -1,0 +1,199 @@
+body{
+    width: 992px;
+    margin: auto;
+    background: rgb(9,36,0);
+    background: linear-gradient(90deg, rgba(9,36,0,0.41780462184873945) 0%, rgba(121,9,9,1) 35%, rgba(0,255,226,0.9472163865546218) 100%);
+}
+header{
+    background-image: url(./img/Background1st.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 20px;
+}
+header .logo{
+    display: inline-flex;
+}
+
+header .logo img{
+    height: 70px;
+
+}
+
+header .logo h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: black;
+    border-radius: 20px;
+}
+nav ul{
+    display: flex;
+    padding: 0;
+}
+nav ul li{
+    list-style-type: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+nav ul li a{
+    margin-right: 10px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.section{
+    display: flex;
+    /*background-color: black;*/
+    padding: 15px;
+    border-radius: 5px;
+}
+.section aside{
+    width: 500px;
+}
+.section aside .asid_cata{
+    border-radius: 5px;
+    background-color: white;
+}
+.section aside .asid_cata h2{
+    background-color: rgb(88, 83, 83);
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0;
+    padding: 10px 20px;
+}
+.section aside .asid_cata ul{
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+.section aside .asid_cata ul li{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;}
+
+    .section aside .bottom ul li{
+        border-bottom: unset;
+        margin-bottom: 10px;
+    }
+
+    .section aside .asid_cata ul li a{
+        color: red;  
+    }
+
+.section main{
+    background-color: rgb(88, 83, 83) ;
+    color: white;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.section main .top{}
+.section main .top h2{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    margin: 0;
+    
+}
+.section main .top h2 span{
+
+}
+.section main .top p{
+    color: gray;
+    padding: 0px 10px;
+}
+.section main .top p span{
+    color: white;
+}
+.section main .top p .span2{
+    color: rgb(13, 213, 240);
+}
+.section main .top ul{}
+.section main .top ul li{}
+
+
+
+.section main .Bottom{
+    display: flex;
+}
+.section main .Bottom .left{
+    border-right: 1px solid white;
+}
+.section main .left h2{
+    border-bottom: 1px solid gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.section main .Bottom .left p{
+    color: gray;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.section main .Bottom .left span{
+    color: white;}
+
+    .section main .Bottom .left p .span2{
+        color: rgb(13, 213, 240);
+    }
+
+
+.section main .Bottom .right{
+    padding-left: 10px;
+}
+.section main .Bottom .right h2{
+    border-bottom: 1px solid gray;
+    margin-right: 10px;
+}
+.section main .Bottom .right p{
+    color: gray;
+}
+.section main .Bottom .right span{
+    color: white;}
+
+    .section main .Bottom .right p .span2{
+        color: rgb(13, 213, 240);
+    }
+    footer{
+        display: flex;
+        background-color: black;
+        margin: 10px;
+        color: white;
+        border-radius: 5px;
+    }
+    footer .left{
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    footer .left a{
+        color: rgb(13, 246, 169);
+    }
+    footer .right{
+        flex: 1;
+    }
+    footer .right ul{
+        display: flex;
+        padding: 0;
+        justify-content: flex-end;
+    }
+    footer .right ul li{
+        list-style-type: none;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    footer .right ul li a{
+        margin-right: 10px;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: none;
+    }
